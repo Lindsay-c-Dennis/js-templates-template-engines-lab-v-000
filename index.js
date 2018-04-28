@@ -10,4 +10,6 @@ function createPost() {
   let postsDiv = document.getElementById('post');
   
   let postTemplateHTML = postTemplateFn({ 'title': title, 'body' : body, 'author': author });
+  
+  postDivs.
 }
