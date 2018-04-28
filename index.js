@@ -3,9 +3,9 @@ function createPost() {
   let body = document.getElementById('postBody').value;
   let author = document.getElementById('postAuthor').value;
   
-  let pageTemplate = _.template(document.getElementById('page-template').innerHTML;
-  let postTemplate = document.getElementById('postTemplate').innerHTML;
-  let commentsTemplate = document.getElementById('commentsTemplate').innerHTML;
+  let pageTemplate = _.template(document.getElementById('page-template').innerHTML);
+  let postTemplate = _.template(document.getElementById('postTemplate').innerHTML);
+  let commentsTemplate = _.template(document.getElementById('commentsTemplate').innerHTML);
   
   document.getElementsByTagName('main')[0].innerHTML += pageTemplate;
   
