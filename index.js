@@ -9,5 +9,5 @@ function createPost() {
   
   let postsDiv = document.getElementById('post');
   
-  let postTemplateHTML = postTemplateFn()
+  let postTemplateHTML = postTemplateFn({ })
 }
