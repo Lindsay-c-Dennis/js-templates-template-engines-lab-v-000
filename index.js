@@ -13,6 +13,8 @@ function createPost() {
   let commentsSection = commentsTemplate();
   let postElement = document.getElementByID('post');
   
+  postElement.innerHTML = postSection;
+  
   let postTemplateFn = _.template(postTemplate);
   
   let postsDiv = document.getElementById('post');
