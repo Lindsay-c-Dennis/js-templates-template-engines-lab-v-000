@@ -7,7 +7,7 @@ function createPost() {
   let postTemplate = document.getElementById('postTemplate').innerHTML;
   let commentsTemplate = document.getElementById('commentsTemplate').innerHTML;
   
-  document.getElementsByTagName('main')[0].innerHTML
+  document.getElementsByTagName('main')[0].innerHTML += pageTemplate;
   
   let postTemplateFn = _.template(postTemplate);
   
