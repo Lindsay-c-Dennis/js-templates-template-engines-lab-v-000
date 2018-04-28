@@ -9,6 +9,8 @@ function createPost() {
   
   document.getElementsByTagName('main')[0].innerHTML += pageTemplate;
   
+  let postSection = 
+  
   let postTemplateFn = _.template(postTemplate);
   
   let postsDiv = document.getElementById('post');
