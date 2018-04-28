@@ -9,7 +9,7 @@ function createPost() {
   
   document.getElementsByTagName('main')[0].innerHTML += pageTemplate;
   
-  let postSection = 
+  let postSection = postTemplate('')
   
   let postTemplateFn = _.template(postTemplate);
   
