@@ -3,6 +3,7 @@ function createPost() {
   let body = document.getElementById('postBody').value;
   let author = document.getElementById('postAuthor').value;
   
+  let pageTemplate = document.getElementById('page-template').innerHTML;
   let postTemplate = document.getElementById('postTemplate').innerHTML;
   
   let postTemplateFn = _.template(postTemplate);
