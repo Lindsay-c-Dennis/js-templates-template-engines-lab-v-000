@@ -3,5 +3,5 @@ function createPost() {
   let body = document.getElementById('postBody').value;
   let author = document.getElementById('postAuthor').value;
   
-  let postTemplate = 
+  let postTemplate = document.getElementById('postTemplate')
 }
