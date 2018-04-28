@@ -1,3 +1,3 @@
 function createPost() {
-  let title = 
+  let title = document.getElementById('')
 }
