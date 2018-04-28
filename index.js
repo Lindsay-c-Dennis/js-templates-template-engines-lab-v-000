@@ -14,6 +14,7 @@ function createPost() {
   let postElement = document.getElementByID('post');
   
   postElement.innerHTML = postSection;
+  postElement.getElementsByTagName('')
   
   let postTemplateFn = _.template(postTemplate);
   
